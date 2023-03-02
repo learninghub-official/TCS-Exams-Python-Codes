@@ -63,7 +63,7 @@ Output:
 Second Largest Number :  75
 '''
 
-#3 Calculate the sum of digits on an integer input
+#3 Calculate the sum of digits of an integer input
 
 """
 
@@ -106,7 +106,7 @@ for i in range(len(l)):
 
 """
 
-#5 check palindrome and return it 
+#5 check palindrome in list of strings and return it 
 
 '''
 
