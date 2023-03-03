@@ -67,4 +67,29 @@ else:
     print("Not Found")
 
 
-    
+"""
+
+sample input 1:
+3                 
+hello Mayank
+Hello monu
+Good Morning
+['hello', 'Mayank', 'Hello', 'monu', 'Good', 'Morning']
+hello
+
+Output:
+Count Of Given Word :  2
+
+
+sample input 2:
+3                 
+hello Mayank
+Hello monu
+Good Morning      
+['hello', 'Mayank', 'Hello', 'monu', 'Good', 'Morning']
+gavish
+
+Output:
+Not Found
+
+"""
