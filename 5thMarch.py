@@ -14,8 +14,7 @@ class Film :
             if i.Language.lower() == 'English'.lower() and i.price >= 500:
                 flag = 1
                 print(i.filmName , i.filmStudio)
-                
-                
+               
         if flag==0:
             print("Movie Not Found")
         # else:
