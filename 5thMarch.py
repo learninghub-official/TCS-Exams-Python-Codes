@@ -4,7 +4,7 @@ class Film :
     def __init__(self,filmStudio , filmName,Price,Language):
         self.filmStudio = filmStudio
         self.filmName = filmName
-        self.price = Price
+        self.price = price
         self.Language = Language
     def search_print(self,list):
         flag = 0
@@ -23,10 +23,10 @@ list = []
 for i in range(n):
     filmStudio = input()
     filmName = input()
-    Price = int(input())
+    price = int(input())
     Language = input()
 
-    FilmObj = Film(filmStudio , filmName,Price,Language)
+    FilmObj = Film(filmStudio , filmName,price,Language)
     list.append(FilmObj)
 FilmObj.search_print(list)
 
