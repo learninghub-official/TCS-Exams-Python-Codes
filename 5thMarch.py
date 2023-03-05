@@ -1,5 +1,7 @@
 # 35 Marks Question Of TCS IPA held on 25 Feb 2023
 
+'''
+
 class Film :
     def __init__(self,filmStudio , filmName,Price,Language):
         self.filmStudio = filmStudio
@@ -30,6 +32,8 @@ for i in range(n):
     list.append(FilmObj)
 FilmObj.search_print(list)
 
+
+'''
 
 """
 
@@ -63,3 +67,86 @@ Hindi
 output:
 Ironman MayankStudio
 """
+
+# Ninja To digital Level Question 
+
+# Finding Sum Of Diagonal of Matrix of 3*3 and Substract their values 
+
+'''
+
+n = int(input())
+matirx = []
+for i in range(n*n):
+    matirx.append(int(input()))
+diagonal1 = []
+diagonal2 = []
+
+diagonal1.append(matirx[0])
+diagonal1.append(matirx[4])
+diagonal1.append(matirx[8])
+
+diagonal2.append(matirx[2])
+diagonal2.append(matirx[4])
+diagonal2.append(matirx[6])
+
+print(diagonal1)
+print(diagonal2)
+s1 = sum(diagonal1)
+s2 = sum(diagonal2)
+
+ans = abs(abs(s1)-abs(s2))
+print(ans)
+
+
+'''
+
+'''
+
+input:
+3
+11
+2
+-3
+20
+7
+5
+-9
+7
+6
+
+Output:
+[11, 7, 6]
+[-3, 7, -9]
+19
+
+'''
+#Another Method to Solve this
+# Finding Sum Of Diagonal of Matrix of 3*3 and Substract their values
+
+l = []
+for i in range (int (input ( ) )):
+    j =input().split(" ")
+    l=l+j
+s =0
+for i in range (len (l)) :
+    if i == 0 or i==4 or i==8:
+        s=s+int (l[i])
+s1=0
+for i in range (len (l)) :
+    if i==2 or i==4 or i==6:
+        s1=s1+int(l[i])
+print (abs (abs (s)-abs (s1)))
+
+
+
+'''
+input:
+3
+11 2 -3
+20 7 5
+-9 7 6
+
+output:
+19
+
+'''
