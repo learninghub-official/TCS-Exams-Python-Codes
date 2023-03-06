@@ -29,6 +29,8 @@ print("Here is the count of houses : ",j)
 
 
 
+"""
+
 Input:
 7
 2
@@ -48,5 +50,6 @@ Each Rat consume 2 units :
 8 Houses with units available :  [2, 8, 3, 5, 7, 4, 1, 2]
 Here is the count of houses :  4
 
+"""
 
     
