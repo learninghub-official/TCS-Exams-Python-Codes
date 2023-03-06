@@ -12,8 +12,7 @@ print(f"Each Rat consume {unit} units :" )
 print(f"{n} Houses with units available : ",arr)
 
 totalunitrequired = unit*r
-# print(totalunitrequired)
-# print(arr)
+
 s =0 
 j = 0
 for i in arr:
