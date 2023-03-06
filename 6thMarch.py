@@ -51,4 +51,40 @@ Here is the count of houses :  4
 
 """
 
+"""
+# pair socks with colors 
+
+l1 = []
+n = int(input())
+for i in range(n):
+    l1.append(int(input()))
+print(n)
+print(l1)
+l2 = set(l1)
+s = 0
+for i in l2:
+    s = s +int((l1.count(i)/2))
+print(s)
+
+"""
     
+    
+    
+    
+"""
+input:
+9
+10
+20
+20
+10
+10
+30
+50
+10
+20
+output:
+9
+[10, 20, 20, 10, 10, 30, 50, 10, 20]
+3
+"""
