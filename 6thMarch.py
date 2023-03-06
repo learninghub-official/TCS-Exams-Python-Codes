@@ -32,3 +32,5 @@ print("Here is the count of houses : ",j)
 
     
 
+
+    
