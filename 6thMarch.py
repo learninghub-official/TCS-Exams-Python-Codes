@@ -51,8 +51,11 @@ Here is the count of houses :  4
 
 """
 
+
+# WIPRO Python question on COUNTING PAIR OF COLOR OF SOCKS previous year asked 2022 slot
+
+
 """
-# pair socks with colors 
 
 l1 = []
 n = int(input())
