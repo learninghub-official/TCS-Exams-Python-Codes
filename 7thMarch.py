@@ -1,1 +1,8 @@
 print("hi")
+
+"""
+
+Output:
+hi
+
+"""
