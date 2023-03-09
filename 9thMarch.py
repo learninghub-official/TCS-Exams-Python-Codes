@@ -1,6 +1,3 @@
-
-
-
 n = int(input())
 l = []
 if n >9:
