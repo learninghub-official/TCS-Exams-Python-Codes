@@ -28,6 +28,13 @@ progoti.c
 Output:
 Valid:  2
 Invalid:  2
+
+Explaination:
+
+Example :
+If the string given as argument is "Hello Good Morning", the function will return True.
+If the string given as argument is "Purabi@gmail.com", the function will return False.
+
 '''
 
 
