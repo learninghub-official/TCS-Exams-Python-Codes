@@ -59,7 +59,6 @@ for i in range(len(nums)):
 print(max(l1))
 
 
-
 '''
 
 Output:
