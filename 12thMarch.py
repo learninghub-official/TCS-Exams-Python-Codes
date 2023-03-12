@@ -47,7 +47,7 @@ for k ,v in dic.items():
 print(len(set(l1))==len(l1))
         '''
 
-# Next Question 
+# Question 3 
 
 nums = [6,4,5,1]
 l1 = []
