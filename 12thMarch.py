@@ -49,15 +49,25 @@ print(len(set(l1))==len(l1))
 
 # Question 3 
 
-nums = [6,4,5,1]
-l1 = []
-for i in range(len(nums)):
-    # print(i)
-    for j in range(i+1,len(nums)):
-        # print("j = ",j)
-        l1.append((nums[i]-1)*(nums[j]-1))
-print(max(l1))
+# nums = [6,4,5,1]
+# l1 = []
+# for i in range(len(nums)):
+#     # print(i)
+#     for j in range(i+1,len(nums)):
+#         # print("j = ",j)
+#         l1.append((nums[i]-1)*(nums[j]-1))
+# print(max(l1))
 
+
+# or 
+
+
+nums = [6,4,5,1]
+l = len(nums)
+for i in nums:
+    nums.sort()
+    l1 = ((nums[l-1]-1)*(nums[l-2]-1))
+print(l1)
 
 '''
 
