@@ -23,7 +23,7 @@ print(final)
 
 '''
 
-# Next Question
+# Question 2
 
 '''
 Input:
