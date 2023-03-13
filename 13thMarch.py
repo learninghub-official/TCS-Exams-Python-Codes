@@ -44,3 +44,10 @@ for i in l1:
     ss+=' '+i
 print(ss)
 
+'''
+
+Output:
+Let's take LeetCode Contest
+ s'teL ekat edoCteeL tsetnoC
+
+'''
