@@ -7,9 +7,9 @@ print(s)
 
 for i in s:
     l = s.split()
-print(l)
+#print(l)
 x = len(l)
-print(x)
+#print(x)
 m = []
 for i in range(x):
     for j in l:
@@ -20,14 +20,22 @@ for i in range(x):
         lx.reverse()
 
         m += lx
-    print(m)
-    final = ""
+    #print(m)
     final = " ".join(m)
 
     print(final)
 
     break
  '''   
+
+'''
+
+Output:
+Let's take LeetCode Contest
+s ' t e L e k a t e d o C t e e L t s e t n o C
+
+'''
+
 
 # right approach for this problem 
 
