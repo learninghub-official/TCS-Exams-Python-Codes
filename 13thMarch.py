@@ -40,17 +40,19 @@ s ' t e L e k a t e d o C t e e L t s e t n o C
 # right approach for this problem 
 
 
-s = "Let's take LeetCode Contest"
+
+s = "Let's take LeetCode contest"
 print(s)
 l = s.split()
 l1 = []
 for i in l:
     l1.append(i[::-1])
-# print(l1)
-ss = ""
-for i in l1:
-    ss+=' '+i
+ss = ' '.join(l1)
 print(ss)
+l.sort()
+print(len(l[0]))
+
+
 
 '''
 
