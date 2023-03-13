@@ -57,7 +57,8 @@ print(len(l[0]))
 '''
 
 Output:
-Let's take LeetCode Contest
- s'teL ekat edoCteeL tsetnoC
+Let's take LeetCode contest
+s'teL ekat edoCteeL tsetnoc
+8
 
 '''
