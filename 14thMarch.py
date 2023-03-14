@@ -32,4 +32,3 @@ for i in alphabat:
         print("Yes")
     break
 '''
-
