@@ -3,6 +3,7 @@
 # Check if the string is pangram
 
 # Pangram string is a string which contains all the letters of English Alphabats in it where repeatation of words is allowed 
+# for Exapmle "A quick brown fox jumps over the lazy dog" is a pangram string
 
 def ispangram(str):
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
