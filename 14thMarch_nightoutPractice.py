@@ -96,7 +96,7 @@ Create another function max_accurance_word() which takes a string as input and r
 """
 
 
-
+# Code taken from WEB
 
 def count_words(string):
     l=string.split()
