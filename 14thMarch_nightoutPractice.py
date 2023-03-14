@@ -37,6 +37,9 @@ for i in range(0,len(l)):
 '''
 
 
+# Print All Palindrom Strings present in the list 
+
+
 '''
 
 n = int(input())
