@@ -15,8 +15,6 @@ if (ispangram(string))==True:
 else:
 	print("No")
 
-
-
 '''s = "A quick brown fox jumps over the lazy dog"
 s = "abcdefghijkl"
 l1 = []
