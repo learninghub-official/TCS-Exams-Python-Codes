@@ -35,3 +35,31 @@ for i in alphabat:
         print("Yes")
     break
 '''
+
+
+# Another Approach for this question 
+
+
+s = input().split()
+j = ''.join(s)
+# print(j)
+l = []
+for i in j:
+    l.append(i.lower())
+# print(l)
+l1 = list(set(l))
+# print(l1)
+if len(l1) == 26:
+    print("YES")
+else:
+    print("NO")
+
+'''
+
+Input:
+A quick brown fox jumps over the lazy dog
+
+Output:
+YES
+
+'''
