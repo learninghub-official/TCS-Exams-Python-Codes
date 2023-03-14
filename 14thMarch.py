@@ -2,6 +2,8 @@
 # Python3 program to
 # Check if the string is pangram
 
+# Pangram string is a string which contains all the letters of English Alphabats in it where repeatation of words is allowed 
+
 def ispangram(str):
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 	for i in alphabet:
