@@ -63,3 +63,28 @@ Output:
 YES
 
 '''
+
+"""
+# 2D matrix rotation
+
+l1 = input().split()
+l2 = input().split()
+l3 = input().split()
+print(l1,l2,l3)
+print("90 Degree Rotation")
+for i in range(3):
+    print(l3[i],l2[i],l1[i])
+print("180 Degree Rotation")
+for i in range(3):
+    j = 0
+    if i==0:
+        print(l3[j+2],l3[j+1],l3[j])
+    elif i==1:
+        print(l2[j+2],l2[j+1],l2[j])
+    else:
+        print(l1[j+2],l1[j+1],l1[j])
+	
+	
+"""
+
+
