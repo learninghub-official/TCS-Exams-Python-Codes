@@ -14,7 +14,7 @@ class Solution:
             if i.cpCountryFrom.lower() == country.lower():
                 count+=1
         return count
-    def getPlayer(self):
+    def getPlayerPlayedForMaxCountry(self):
         dic = {}
         for i in listOfPlayers:
             dic[i.cplayerName] = len(i.cplayedCountry)
@@ -51,7 +51,7 @@ if ans:
 else:
     print("No Country Found !")
 # print(objSolution.countPlayers(country))
-print(objSolution.getPlayer())
+print(objSolution.getPlayerPlayedForMaxCountry())
 
 
 '''
