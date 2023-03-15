@@ -1,5 +1,5 @@
 
-# Icecream Question
+# Icecream Question to find minimum icecream by price and to return sorted list of id's of icecreams 
 
 class Icecream:
     def __init__(self,id,price,name,quantityInGms,category):
@@ -55,3 +55,23 @@ for i in range(n):
 ans1 = IcecreamStore(IcecreamList)
 print(ans1.findMinimumIcecreambyprice_list(IcecreamList))
 print(ans1.sortIcecreamByid())
+
+'''
+Input:
+02
+01
+10
+vanila
+200
+indian
+02
+20
+chocobar
+300
+italian
+
+Output:
+vanila
+[1, 2]
+
+'''
