@@ -12,7 +12,7 @@ class ServiceCentre:
     def __init__(self,mileagedict,serviceList):
         self.mileagedict = mileagedict
         self.serviceList = serviceList
-    def getTotalPaymentOfInsuredCars(self,ManufacturerName,stateCode):
+    def getTotalPaymentOfInsuredCars(self,ManufacturerName,stateCode,statename):
         for i in serviceList:
             if
 
