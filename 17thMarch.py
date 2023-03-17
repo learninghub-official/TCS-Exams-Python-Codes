@@ -12,9 +12,16 @@ class ServiceCentre:
     def __init__(self,mileagedict,serviceList):
         self.mileagedict = mileagedict
         self.serviceList = serviceList
-    def getTotalPaymentOfInsuredCars(self,ManufacturerName,stateCode,statename):
+    def getTotalPaymentOfInsuredCars(self,ManufacturerName,stateCode,statename,mName):
+        l=[]
         for i in serviceList:
-            if
+            # if mName ==
+            pass
+        # for i in serviceList:
+        #     if i.isInsured.lower() == 'yes'.lower():
+        #         l.append(i.paymentRecvd)
+        #     s = sum(l)
+        #     print(s)
 
 serviceList = []
 n = int(input())
