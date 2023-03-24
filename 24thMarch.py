@@ -213,7 +213,9 @@ if ans1:
     print(ans1)
 
 '''
+"""
 
+Input:
 3
 3
 1
@@ -261,4 +263,8 @@ lucknow
 u.p.
 201876
 lucknow
-'''
+
+Output:
+SHAKESPHERE 3
+
+"""
