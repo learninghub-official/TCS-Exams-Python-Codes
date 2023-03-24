@@ -120,4 +120,22 @@ for i in l:
         print("Palindrome Word = ",i)
 
 '''
-        
+def count_valid_strings(string_list):
+    valid_count = 0
+    invalid_count = 0
+    
+    for string in string_list:
+        if all(char.isalpha() or char.isspace() for char in string):
+            valid_count += 1
+        else:
+            invalid_count += 1
+    
+    print(f"Valid strings: {valid_count} ")
+    print(f"Invalid strings: {invalid_count} ")
+# string_list = ["This is a valid string", "So is this!", "No$#t valid", "This is a    l s o valid"]
+string_list = []
+for i in range(int(input())):
+    string_list.append(input())
+
+count_valid_strings(string_list)
+
