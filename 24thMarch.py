@@ -13,25 +13,32 @@ class Organization:
         self.employee_list = employee_list
     def checkElegibility(self,m):
        for i in employee_list:
-           for j in overTimeContribution:
-               print(employee_list[i][])
+            s = sum(i.overTimeContribution.values())
+            if s >m:
+                i.overTimeStatus = True
+            print(f"{i.employee_name} {i.overTimeStatus} {s}")
     def bonus(self,k):
-        pass
+        l4 = []
+        for i in employee_list:
+            if i.overTimeStatus == True:
+                l4.append(sum(i.overTimeContribution.values()))
+                total = sum(l4)
+                tm = total*k
+        return tm
 n = int(input())
-overTimeContribution = {}
 employee_list = []
 for i in range(n):
     employee_name = input()
     designation = input()
     salary = int(input())
     overTimeStatus = False
+    overTimeContribution = {}
     for i in range(int(input())):
         monthname = input()
         hours = int(input())
         overTimeContribution[monthname] = hours
     EmployeeObj = Employee(employee_name,designation,salary,overTimeContribution,overTimeStatus)
     employee_list.append(EmployeeObj)
-
 m = int(input())
 k = int(input())
 Organizationobj = Organization(employee_list)
@@ -40,6 +47,8 @@ ans = Organizationobj.checkElegibility(m)
 ans2 = Organizationobj.bonus(k)
 if ans2:
     print(ans2)
+
+
 
     
             
