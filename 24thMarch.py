@@ -95,9 +95,10 @@ July
 5
 Aug
 3
-
-Output:
 18
 100
+
+Output:
+
 
 """
