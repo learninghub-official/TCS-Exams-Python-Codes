@@ -139,3 +139,16 @@ for i in range(int(input())):
 
 count_valid_strings(string_list)
 
+'''
+Input:
+4
+Hello Good Morning
+abcd123Fghy
+India
+progoti.c
+
+Output:
+Valid strings: 2 
+Invalid strings: 2
+
+'''
