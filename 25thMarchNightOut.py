@@ -13,3 +13,19 @@ if n>3:
 
 else:
     print("N should be greater than 3")
+
+    
+"""
+Input:
+5
+1
+2
+3
+4
+6
+
+Output:
+Second largest:  4
+Second Smallest:  2
+
+""" 
