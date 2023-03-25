@@ -16,7 +16,7 @@ else:
 
     
 """
-Input:
+Input 1:
 5
 1
 2
