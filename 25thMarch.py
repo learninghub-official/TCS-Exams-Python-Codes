@@ -57,3 +57,31 @@ Nupur
 Mayank
 
 '''
+
+'''
+
+#Another Question for practice
+
+n = input()     
+l = n.split("$")
+countSpace =0
+countLower =0
+countNumber=0
+for i in range(len(l)):
+    for j in l[i]:
+        if j.isspace():
+            countSpace +=1
+        elif j.islower():
+            countLower +=1
+        elif j.isdigit():
+            countNumber +=1
+print(f"{countLower} {countNumber} {countSpace}")
+
+'''
+'''
+Input:
+abc def4 5$
+
+Output:
+6 2 2
+'''
