@@ -28,4 +28,11 @@ Output:
 Second largest:  4
 Second Smallest:  2
 
+
+Input 2:
+3
+
+Output:
+N should be greater than 3
+
 """ 
