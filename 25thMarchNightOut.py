@@ -83,4 +83,34 @@ else:
 ans2 = objSolution.getMoviebyratingandbudget(user_rating,user_budget)
 if ans2:
     print(ans2)
-    '''
+'''
+
+'''
+
+Input:
+4
+101
+gvm
+4
+100
+102
+shankar
+5
+500
+103
+shankar
+3
+50
+104
+gvm
+5
+300
+gvm
+5
+300
+
+Output:
+200.0
+104 gvm 5 300
+
+'''
