@@ -162,3 +162,26 @@ Output:
 123 5
 126 4
 '''
+
+'''
+n = input()
+j = ''
+for i in range(len(n)):
+    if i%2 == 0:
+        pass
+    else:
+        j += n[i]
+print(j)
+        # print(n[i],end="") 
+
+'''
+
+'''
+
+Input:
+Hey There!
+
+Output:
+e hr!
+
+'''
