@@ -4,7 +4,7 @@ if n>3:
     for i in range(n):
         l1.append(int(input()))
     l1.sort()
-    # print(l1)
+    
     n=len(l1)
     for j in l1:
         print("Second largest: ",l1[n-2])
