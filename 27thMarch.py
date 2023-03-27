@@ -131,3 +131,15 @@ No pan of this Material Found !
 # num = 2
 # second_index = find_second_index(my_list, num)
 # print("The second occurrence of", num, "is at index", second_index)
+
+'''
+
+l = []
+for i in range(int(input())):
+    l.append(int(input()))
+n = int(input())
+first= l.index(n)
+second = l.index(n,first+1)
+print(second)
+
+'''
