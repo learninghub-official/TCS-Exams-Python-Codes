@@ -120,3 +120,14 @@ Output 2:
 No pan of this Material Found !
 400.0
 '''
+
+# def find_second_index(nums, num_to_find):
+#     first_index = nums.index(num_to_find)  # find the first occurrence of the number
+#     second_index = nums.index(num_to_find, first_index+1) # find the second occurrence of the number
+#     return second_index
+
+# # Example usage
+# my_list = [3, 7, 2, 5, 2, 8, 2, 9]
+# num = 2
+# second_index = find_second_index(my_list, num)
+# print("The second occurrence of", num, "is at index", second_index)
