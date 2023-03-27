@@ -143,3 +143,18 @@ second = l.index(n,first+1)
 print(second)
 
 '''
+
+'''
+Input 1:
+5
+3
+4
+3
+7
+4
+3
+
+Output:
+2
+
+'''
