@@ -27,6 +27,7 @@ Number: 4
 
 ###############
 
+Input 2:
 12345678Sachi
 
 Number: 8
