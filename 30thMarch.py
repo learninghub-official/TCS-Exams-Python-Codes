@@ -64,6 +64,7 @@ ans = obj2.Ssort(userType)
 
 '''
 '''
+Input:
 3
 101
 Mayank
