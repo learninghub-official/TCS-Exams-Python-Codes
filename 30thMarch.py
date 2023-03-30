@@ -30,6 +30,7 @@ Number: 4
 Input 2:
 12345678Sachi
 
+Output 2:
 Number: 8
 Alphabets: 5
 
