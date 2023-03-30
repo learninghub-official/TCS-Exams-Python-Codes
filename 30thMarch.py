@@ -21,6 +21,7 @@ if ans:
 Input 1:
 Sachin1234
 
+Output 1:
 Alphabets: 6
 Number: 4
 
