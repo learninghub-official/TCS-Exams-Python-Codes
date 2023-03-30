@@ -18,7 +18,7 @@ if ans:
     print(ans)
 
 '''
-
+Input 1:
 Sachin1234
 
 Alphabets: 6
