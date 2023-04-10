@@ -4,7 +4,6 @@ class CricketPlayer:
         self.cplayedCountry = cplayedCountry
         self.cplayerAge = cplayerAge
         self.cpCountryFrom = cpCountryFrom
-
         
 class Solution:
     def __init__(self,listOfPlayers):
