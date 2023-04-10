@@ -5,6 +5,7 @@ class CricketPlayer:
         self.cplayerAge = cplayerAge
         self.cpCountryFrom = cpCountryFrom
 
+        
 class Solution:
     def __init__(self,listOfPlayers):
         self.listOfPlayers = listOfPlayers
