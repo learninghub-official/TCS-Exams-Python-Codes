@@ -6,6 +6,7 @@ class CricketPlayer:
         self.cpCountryFrom = cpCountryFrom
         
 class Solution:
+    
     def __init__(self,listOfPlayers):
         self.listOfPlayers = listOfPlayers
     def countPlayers(self,country):
