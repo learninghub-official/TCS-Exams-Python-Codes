@@ -1,6 +1,6 @@
 '''
 
-# 35 marks ninja to digital asked in 22 march question
+# 35 marks ninja to digital asked in 22 march 2023 question
 
 n1 = int(input())
 s = input().split(" ")
@@ -39,6 +39,7 @@ output
 
 '''
 
+# Ipa 15 marks question asked on 30th march 2023
 
 s = input()
 counta = 0
@@ -58,3 +59,33 @@ elif counta > countn and countn ==0:
     print("Alphabets :",counta)
 elif countn > counta and counta==0:
     print("Numbers :",countn)
+
+    
+
+'''
+input 1 :
+23455fdf
+
+Output 1:
+Numbers : 5
+Alphabets : 3
+
+input 2 :
+dsfg23
+
+Output2:
+Alphabets : 4
+Numbers : 2
+
+input 3 :
+342345
+
+Output 3:
+Numbers : 6
+
+input 4 :
+dfdg
+
+Output 4:
+Alphabets : 4
+'''
