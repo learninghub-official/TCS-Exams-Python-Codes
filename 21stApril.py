@@ -35,3 +35,22 @@ output
 
 
 '''
+
+s = input()
+counta = 0
+countn = 0 
+for i in s:
+    if i.isalpha():
+        counta +=1
+    elif i.isdigit():
+        countn +=1
+if counta > countn and countn!=0:
+    print("Alphabets :",counta)
+    print("Numbers :",countn)
+elif countn > counta and counta!=0:
+    print("Numbers :",countn)
+    print("Alphabets :",counta)
+elif counta > countn and countn ==0:
+    print("Alphabets :",counta)
+elif countn > counta and counta==0:
+    print("Numbers :",countn)
