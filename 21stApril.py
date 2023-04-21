@@ -1,3 +1,7 @@
+'''
+
+# 35 marks ninja to digital asked in 22 march question
+
 n1 = int(input())
 s = input().split(" ")
 
@@ -19,8 +23,7 @@ print("Missing songs :",ans)
 # print("Songs Of Old Playlist : ",s)
 # print("Songs Of Old Playlist : ",s1)
 
-
-
+'''
 
 '''
 
@@ -35,6 +38,7 @@ output
 
 
 '''
+
 
 s = input()
 counta = 0
