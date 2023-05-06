@@ -105,3 +105,32 @@ for i in range(n):
 userpace = int(input())
 obj2 = C2(list)
 ans = obj2.m1(userpace)
+
+
+
+'''
+Input:
+4
+john
+barcelona
+55
+5
+Ramu
+kkr
+60
+4
+Ravi
+cbs
+80
+5
+Lalit
+csk
+56
+6
+14
+
+Output:
+Ramu
+Ravi
+
+'''
