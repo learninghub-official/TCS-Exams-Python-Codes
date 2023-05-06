@@ -64,3 +64,16 @@ ans = m(n1,n2)
 #     for i in l3:
 #         s= s+i+" "
 #     print(s)
+
+
+
+'''
+
+Input :
+2,2,3,4,5,6,7
+2,8,9,5,0,1
+
+Output:
+Answers: 2 5
+
+'''
