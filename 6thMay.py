@@ -1,3 +1,4 @@
+'''
 def m (n1,n2):
     l3 = []
     
@@ -65,15 +66,42 @@ ans = m(n1,n2)
 #         s= s+i+" "
 #     print(s)
 
-
-
 '''
 
-Input :
-2,2,3,4,5,6,7
-2,8,9,5,0,1
 
-Output:
-Answers: 2 5
+class C1:
+    def __init__(self,runnername,nameofclub,distance,time):
+        self.runnername = runnername
+        self.nameofclub = nameofclub
+        self.distance = distance
+        self.time = time
+class C2:
+    def __init__(self,list):
+        self.list = list
+    def m1(self,userpace):
+        l2 = []
+        for i in list:
+            pace = (i.distance / i.time )
+            if pace > userpace:
+                l2.append(i.runnername)
+        if len(l2) == 0:
+            print("Not Found")
+        else:
+            for i in l2:
+                print(i)
 
-'''
+
+
+n = int(input())
+list= []
+for i in range(n):
+    runnername = input()
+    nameofclub = input()
+    distance = int(input())
+    time = int(input())
+     
+    obj1 = C1(runnername,nameofclub,distance,time)
+    list.append(obj1)
+userpace = int(input())
+obj2 = C2(list)
+ans = obj2.m1(userpace)
