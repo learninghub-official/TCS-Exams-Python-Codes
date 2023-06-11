@@ -55,6 +55,7 @@ class wweLeague:
         #     print(f"Name: {max_player.name}")
             
     def sortPlayerbyRank(self):
+        # sorted in assending order 
         l3 = []
         for i in self.list1:
             l3.append(i.rank)
@@ -62,7 +63,15 @@ class wweLeague:
         l3.sort()
         for i in l3:
             print(i)
-        
+
+        # sorted in decending order
+#         sorted_players = sorted(self.list1, key=lambda x: x.rank, reverse=True)
+#         for player in sorted_players:
+#             print(f"Rank: {player.rank}")
+#             print(f"Fights: {player.fights}")
+#             print(f"Weight: {player.weight}")
+#             print(f"Name: {player.name}")
+            
 n = int(input())
 list1 = []
 for i in range(n):
