@@ -79,7 +79,8 @@ print("sort players by rank")
 ans2 = obj2.sortPlayerbyRank()
 
 
-'''    
+'''   
+Input:
 3
 32
 12
@@ -93,5 +94,13 @@ nupur
 1
 21
 xyz
+
+Output:
+Max players by fights
+mayank
+sort players by rank
+32
+54
+56
 
 '''
