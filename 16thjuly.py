@@ -1,4 +1,4 @@
-class Album:
+'''class Album:
    def __init__(self,aname,sname,atrack,atype):
       self.sname = sname
       self.aname = aname
@@ -29,7 +29,7 @@ for i in range(int(input())):
 obj2 = song(list1)
 ans = obj2.m1()
 
-
+'''
 '''
 Input:
 3
@@ -50,4 +50,33 @@ Output:
 Mayank
 bohemia
 
+'''
+
+
+# Print All Palindrom Strings present in the list 
+
+
+
+n = int(input())
+l =[]
+for i in range(n):
+    l.append(input())
+for i in l:
+    if i == i[::-1]:
+        print(i)
+        
+
+
+
+
+'''
+Input:
+3
+malayalam
+radar
+nitish
+
+Output:
+malayalam
+radar
 '''
